@@ -1,11 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import SearchBar from './components/SearchBar';
 
 class App extends React.Component {
+  handleSearchChange(searchTerm) {
+    console.log(searchTerm);
+  }
   render() {
     return (
-      <div class="searchBar">
-        <p>Search bar comes here</p>
+      <div className="searchBar">
+        <SearchBar onSearchChange={this.handleSearchChange}/>
       </div>
     );
   }
