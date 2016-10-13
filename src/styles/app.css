@@ -1,0 +1,27 @@
+.carousel {
+  background-image: url("https://static.pexels.com/photos/34020/pexels-photo.jpg");
+  text-align: center;
+  height: 100vh;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+}
+.searchBar input {
+  height: 30px;
+  width: 200px;
+  border-radius: 5px;
+}
+.searchBar, button {
+  display: inline;
+  align-self: center;
+}
+.placeList {
+  position: absolute;
+  z-index: 1;
+  top: 55vh;
+  background-color: white;
+  box-shadow: 5px 5px 10px #000000;
+}
+.placeItem {
+  padding: 10px;
+}

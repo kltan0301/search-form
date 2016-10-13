@@ -13,7 +13,7 @@ class SearchBar extends React.Component {
   //add searchbar into app
   render() {
     return (
-      <div>
+      <div className="searchBar">
         <input placeholder="Type place here" onChange={e => this.onInputChange(e.target.value)}/>
       </div>
     )

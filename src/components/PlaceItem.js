@@ -2,9 +2,7 @@ import React from 'react';
 
 const PlaceItem = (place) => {
   return (
-    <li>
-      <p>{place.placeName.description}</p>
-    </li>
+    <p className="placeItem">{place.placeName.description}</p>
   );
 }
 export default PlaceItem;

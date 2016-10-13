@@ -8,7 +8,7 @@ const PlaceList = (props) => {
   })
 
   return (
-    <ul>{placeItems}</ul>
+    <div className="placeList">{placeItems}</div>
   );
 }
 
